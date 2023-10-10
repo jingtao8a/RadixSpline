@@ -30,3 +30,4 @@ set_property(TARGET gtest_main PROPERTY IMPORTED_LOCATION ${GTEST_MAIN_LIBRARY_P
 # Dependencies
 add_dependencies(gtest gtest_src)
 add_dependencies(gtest_main gtest_src)
+
